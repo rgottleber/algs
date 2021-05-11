@@ -11,7 +11,7 @@ function romanToInt(s: string): number {
   ]);
   // Place holder for final value
   let finalVal = 0;
-  // Itterate through the input string
+  // Iterate through the input string
   for (let i = 0; i < s.length; i++) {
     // Roman numerals are strange. Sometimes you need to subtract values.
     // If the current 'number' is less than the next number, we hit this case.
